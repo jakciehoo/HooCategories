@@ -23,7 +23,7 @@ static char tapGestureKey;
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.detailsLabel.text = message;
     hud.mode = MBProgressHUDModeText;
-    hud.cornerRadius = 3;
+    hud.bezelView.layer.cornerRadius = 3;
     hud.margin = 10;
     hud.detailsLabel.font = [UIFont systemFontOfSize:14.0f];
     hud.removeFromSuperViewOnHide = YES;
@@ -100,13 +100,13 @@ static char tapGestureKey;
     }
     [MBProgressHUD hideHUDForView:view];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
-    hud.detailsLabelText = text;
+    hud.detailsLabel.text = text;
     if (icon) {
         hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"MBProgressHUD.bundle/%@", icon]]];
     }
     hud.mode = MBProgressHUDModeCustomView;
     hud.removeFromSuperViewOnHide = YES;
-    [hud hide:YES afterDelay:time];
+    [hud hideAnimated:YES afterDelay:time];
     
     if (!hud.tapGesture) {
         hud.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:hud action:@selector(tapGestureAction:)];
