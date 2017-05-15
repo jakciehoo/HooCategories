@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HooCategories"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Common Categories Tools"
   s.homepage         = "https://github.com/jakciehoo/HooCategories"
   s.license          = 'Code is MIT, then custom font licenses.'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'HooCategoriesDemo/Categories/*{h,m}'
+  s.source_files = 'HooCategoriesDemo/Categories/*.{h,m}'
 
   s.frameworks = 'UIKit', 'Foundation'
   s.module_name = 'HooCategories'
