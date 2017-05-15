@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "HooCategories"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Common Categories Tools"
   s.homepage         = "https://github.com/jakciehoo/HooCategories"
   s.license          = 'Code is MIT, then custom font licenses.'
