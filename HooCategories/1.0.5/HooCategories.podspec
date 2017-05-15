@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'HooCategoriesDemo/Categories/*'
 
-  s.resources = "HooCategoriesDemo/Assets.xcassets"
+  s.resources = 'HooCategoriesDemo/Assets.xcassets'
   s.frameworks = 'UIKit', 'Foundation'
   s.module_name = 'HooCategories'
   s.dependency 'MBProgressHUD'
