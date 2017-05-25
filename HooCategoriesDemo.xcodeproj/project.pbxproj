@@ -820,7 +820,7 @@
 		331F29971EC8890500216573 /* HooCategoriesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				331F29CB1EC88ABD00216573 /* Categories */,
+				331F29CB1EC88ABD00216573 /* HooCategories */,
 				331F299B1EC8890500216573 /* AppDelegate.h */,
 				331F299C1EC8890500216573 /* AppDelegate.m */,
 				331F299E1EC8890500216573 /* ViewController.h */,
@@ -860,7 +860,7 @@
 			path = HooCategoriesDemoUITests;
 			sourceTree = "<group>";
 		};
-		331F29CB1EC88ABD00216573 /* Categories */ = {
+		331F29CB1EC88ABD00216573 /* HooCategories */ = {
 			isa = PBXGroup;
 			children = (
 				331F29CD1EC88ABD00216573 /* CoreData */,
@@ -875,6 +875,7 @@
 				331F2BEA1EC88ABE00216573 /* UIResponder+HUD.h */,
 				331F2BEB1EC88ABE00216573 /* UIResponder+HUD.m */,
 			);
+			name = HooCategories;
 			path = Categories;
 			sourceTree = "<group>";
 		};
